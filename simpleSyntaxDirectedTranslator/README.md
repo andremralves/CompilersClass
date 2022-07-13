@@ -67,6 +67,14 @@ construct.
 
 ## 2.3.1 Posfix Notation
 
+![image](https://user-images.githubusercontent.com/71379045/178640206-aead07d6-1096-4951-bce2-4101b317ba00.png)
+
 infix: (9-5)+2
 posfix: 95-2+
+
+- No parentheses are needed in postfix notation, beacuse the position and arity (number of arguments) of the operators permits only one decoding of a postfix expression.
+- The "trick" is to repeatedly scan the postfix string from the left, until you find an operator. 3746+ equal to 3+7+4+6
+- Example 2.9: <b>952+-3*</b>. Scanning from the left we first encounter the plus sign. We do 52+.  Now we have the string 97-3*. Now we do 97- than we have 23*. The final result is 6.
+
+### 2.3.2 Synthesized Attributes
 
