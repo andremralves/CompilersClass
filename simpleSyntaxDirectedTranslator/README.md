@@ -78,3 +78,7 @@ posfix: 95-2+
 
 ### 2.3.2 Synthesized Attributes
 
+- A parse tree showing the attribute values at each node is called an annotated parse tree
+
+![image](https://user-images.githubusercontent.com/71379045/178658255-b8e722fe-1b32-4457-af7c-39ef138e1691.png)
+
